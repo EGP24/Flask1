@@ -18,8 +18,8 @@ def empty():
                             <title>Пример формы</title>
                           </head>
                           <body>
-                            <h1>Анкета претендента</h1>
-                            <h2>На учатие в миссии</h2>
+                            <h1 class=text-center>Анкета претендента</h1>
+                            <h2 class=text-center>На учатие в миссии</h2>
                             <div>
                                 <form class="login_form" method="post">
                                     <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Введите фамилию" name="firstname">
