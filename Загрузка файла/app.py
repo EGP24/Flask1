@@ -35,6 +35,8 @@ def empty():
                               </body>
                             </html>'''
     elif request.method == 'POST':
+        if not os.path.exists('static/img'):
+            os.mkdir('static/img')
         with open('static/img/image.jpg', 'wb') as file:
             file.write(request.files['file'].read())
         return ''
